@@ -6,26 +6,7 @@ import Search from './components/Search'
 import Filter from './components/Filter'
 
 function App() {
-  const [todos, setTodos] = useState([
-    {
-      id: 1,
-      text: "virar programador clt",
-      category: "Trabalho",
-      isCompleted: false,
-    },
-    {
-      id: 2,
-      text: "Se mudar pra Portugal",
-      category: "Pessoal",
-      isCompleted: false,
-    },
-    {
-      id: 3,
-      text: "estudar estratégias de campo minado",
-      category: "Estudos",
-      isCompleted: false,
-    }
-  ])
+  const [todos, setTodos] = useState([])
 
   const [search, setSearch] = useState("");
 
